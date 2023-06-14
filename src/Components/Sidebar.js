@@ -21,7 +21,7 @@ function Sidebar() {
                     </a>
                     <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                         <li>
-                            <Link href="/Alerts">
+                            <Link to="/components/alerts">
                                 <i class="bi bi-circle"></i>
                                 <span>Alerts</span>
                             </Link>

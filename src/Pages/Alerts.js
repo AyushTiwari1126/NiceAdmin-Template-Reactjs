@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Alerts() {
     return (
@@ -9,7 +10,7 @@ function Alerts() {
                     <h1>Alerts</h1>
                     <nav>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><Link to="/">Home</Link></li>
                             <li class="breadcrumb-item">Components</li>
                             <li class="breadcrumb-item active">Alerts</li>
                         </ol>
