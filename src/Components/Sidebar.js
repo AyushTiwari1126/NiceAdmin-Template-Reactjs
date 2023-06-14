@@ -4,16 +4,16 @@ import Menuitem from './Menuitem'
 import DropdownMenuitem from './DropdownMenuitem';
 
 function Sidebar() {
-    const title = {heading : "Dashboard"};
-    const dropdowntitle = {heading : "Card Management"};
+    const title = { heading: "Dashboard" };
+    const dropdowntitle = { heading: "Card Management" };
 
     return (
         <aside id="sidebar" class="sidebar">
 
             <ul class="sidebar-nav" id="sidebar-nav">
-                <Menuitem title={title}/>
+                <Menuitem title={title} />
 
-                <DropdownMenuitem dropdowntitle={dropdowntitle}/>            
+                <DropdownMenuitem dropdowntitle={dropdowntitle} />
 
                 <li class="nav-item">
                     <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
@@ -21,8 +21,9 @@ function Sidebar() {
                     </a>
                     <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                         <li>
-                            <Link href="/components/alerts">
-                                <i class="bi bi-circle"></i><span>Alerts</span>
+                            <Link href="/Alerts">
+                                <i class="bi bi-circle"></i>
+                                <span>Alerts</span>
                             </Link>
                         </li>
                         <li>

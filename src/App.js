@@ -17,7 +17,7 @@ function App() {
             <Route index element={<Dashboard/>} />
             <Route path="/card-production/add-application" element={<Addapplication />} />
             <Route path="/card-production/process-application" element={<Processapplication />} />
-            <Route path="/components/alerts" element={<Alerts/>}/>
+            <Route path="/Alerts" element={<Alerts/>}/>
             <Route path="*" element={<Nopage />} />
           </Route>
         </Routes>
